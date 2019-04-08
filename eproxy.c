@@ -17,7 +17,7 @@
  * approaching zero copy, if the NIC driver is capable. 
  * This method is rather file descriptor intensive (4 fds/conn), so make sure you 
  * have enough. 
- * write 2019 by yixiayu
+ * 2019 by yixiayu
  */
 #define _GNU_SOURCE 1
 #include <sys/socket.h>
